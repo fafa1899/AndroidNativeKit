@@ -1,0 +1,13 @@
+prefix=D:/Work/Android3rdParty
+exec_prefix=D:/Work/Android3rdParty
+libdir=D:/Work/Android3rdParty/lib
+sharedlibdir=D:/Work/Android3rdParty/lib
+includedir=D:/Work/Android3rdParty/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
