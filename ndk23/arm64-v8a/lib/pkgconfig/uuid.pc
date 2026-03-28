@@ -1,0 +1,11 @@
+prefix=/home/charlee/work/Github/AndroidNativeKit/ndk23/arm64-v8a
+exec_prefix=/home/charlee/work/Github/AndroidNativeKit/ndk23/arm64-v8a
+libdir=/home/charlee/work/Github/AndroidNativeKit/ndk23/arm64-v8a/lib
+includedir=/home/charlee/work/Github/AndroidNativeKit/ndk23/arm64-v8a/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.41.3
+Cflags: -I${includedir}/uuid
+Libs.private:  -lpthread
+Libs: -L${libdir} -luuid
