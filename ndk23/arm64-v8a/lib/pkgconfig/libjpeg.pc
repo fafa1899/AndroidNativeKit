@@ -1,7 +1,7 @@
-prefix=D:/Work/Android3rdParty
-exec_prefix=D:/Work/Android3rdParty
-libdir=D:/Work/Android3rdParty/lib
-includedir=D:/Work/Android3rdParty/include
+prefix=D:/Github/AndroidNativeKit/ndk23/arm64-v8a
+exec_prefix=D:/Github/AndroidNativeKit/ndk23/arm64-v8a
+libdir=D:/Github/AndroidNativeKit/ndk23/arm64-v8a/lib
+includedir=D:/Github/AndroidNativeKit/ndk23/arm64-v8a/include
 
 Name: libjpeg
 Description: A SIMD-accelerated JPEG codec that provides the libjpeg API

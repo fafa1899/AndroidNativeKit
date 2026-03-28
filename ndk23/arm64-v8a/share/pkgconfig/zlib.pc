@@ -1,8 +1,8 @@
-prefix=D:/Work/Android3rdParty
-exec_prefix=D:/Work/Android3rdParty
-libdir=D:/Work/Android3rdParty/lib
-sharedlibdir=D:/Work/Android3rdParty/lib
-includedir=D:/Work/Android3rdParty/include
+prefix=D:/Github/AndroidNativeKit/ndk23/arm64-v8a
+exec_prefix=D:/Github/AndroidNativeKit/ndk23/arm64-v8a
+libdir=D:/Github/AndroidNativeKit/ndk23/arm64-v8a/lib
+sharedlibdir=D:/Github/AndroidNativeKit/ndk23/arm64-v8a/lib
+includedir=D:/Github/AndroidNativeKit/ndk23/arm64-v8a/include
 
 Name: zlib
 Description: zlib compression library

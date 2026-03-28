@@ -66,7 +66,7 @@ add_library(libjpeg-turbo STATIC IMPORTED)
 add_library(libtiff STATIC IMPORTED)
 
 set_target_properties(libtiff PROPERTIES
-  INTERFACE_LINK_LIBRARIES "D:/Work/Android3rdParty/lib/libz.so"
+  INTERFACE_LINK_LIBRARIES "D:/Github/AndroidNativeKit/ndk23/arm64-v8a/lib/libz.so"
 )
 
 # Create imported target libwebp
@@ -83,14 +83,14 @@ add_library(libjasper STATIC IMPORTED)
 add_library(libpng STATIC IMPORTED)
 
 set_target_properties(libpng PROPERTIES
-  INTERFACE_LINK_LIBRARIES "D:/Work/Android3rdParty/lib/libz.so"
+  INTERFACE_LINK_LIBRARIES "D:/Github/AndroidNativeKit/ndk23/arm64-v8a/lib/libz.so"
 )
 
 # Create imported target IlmImf
 add_library(IlmImf STATIC IMPORTED)
 
 set_target_properties(IlmImf PROPERTIES
-  INTERFACE_LINK_LIBRARIES "D:/Work/Android3rdParty/lib/libz.so"
+  INTERFACE_LINK_LIBRARIES "D:/Github/AndroidNativeKit/ndk23/arm64-v8a/lib/libz.so"
 )
 
 # Create imported target libprotobuf
@@ -117,7 +117,7 @@ set_target_properties(ittnotify PROPERTIES
 add_library(opencv_world STATIC IMPORTED)
 
 set_target_properties(opencv_world PROPERTIES
-  INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:dl>;\$<LINK_ONLY:m>;\$<LINK_ONLY:log>;\$<LINK_ONLY:tegra_hal>;\$<LINK_ONLY:libprotobuf>;\$<LINK_ONLY:libjpeg-turbo>;\$<LINK_ONLY:libwebp>;\$<LINK_ONLY:libpng>;\$<LINK_ONLY:libtiff>;\$<LINK_ONLY:libjasper>;\$<LINK_ONLY:IlmImf>;D:/Work/Android3rdParty/lib/libz.so;D:/Work/Android3rdParty/lib/libz.so;\$<LINK_ONLY:libcpufeatures>;\$<LINK_ONLY:ittnotify>;\$<LINK_ONLY:tegra_hal>;\$<LINK_ONLY:quirc>"
+  INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:dl>;\$<LINK_ONLY:m>;\$<LINK_ONLY:log>;\$<LINK_ONLY:tegra_hal>;\$<LINK_ONLY:libprotobuf>;\$<LINK_ONLY:libjpeg-turbo>;\$<LINK_ONLY:libwebp>;\$<LINK_ONLY:libpng>;\$<LINK_ONLY:libtiff>;\$<LINK_ONLY:libjasper>;\$<LINK_ONLY:IlmImf>;D:/Github/AndroidNativeKit/ndk23/arm64-v8a/lib/libz.so;D:/Github/AndroidNativeKit/ndk23/arm64-v8a/lib/libz.so;\$<LINK_ONLY:libcpufeatures>;\$<LINK_ONLY:ittnotify>;\$<LINK_ONLY:tegra_hal>;\$<LINK_ONLY:quirc>"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)
