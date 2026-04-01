@@ -1,0 +1,11 @@
+prefix=/home/charlee/work/Github/AndroidNativeKit/ndk23/arm64-v8a
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: mpfr
+URL: https://www.mpfr.org/
+Description: C library for multiple-precision floating-point computations
+Version: 4.2.2
+Libs: -L${libdir} -lmpfr -lgmp
+Cflags: -I${includedir}
