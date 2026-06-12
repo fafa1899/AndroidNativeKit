@@ -2332,7 +2332,7 @@ enum
 
 /* Define CC and CFLAGS which were used to build this version of GMP */
 #define __GMP_CC "/home/charlee/work/android-ndk-r23b/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
-#define __GMP_CFLAGS "-DNDEBUG -Oz -fdata-sections -ffunction-sections"
+#define __GMP_CFLAGS "-DNDEBUG -fvisibility=hidden -Os"
 
 /* Major version number is the value of __GNU_MP__ too, above. */
 #define __GNU_MP_VERSION            6
