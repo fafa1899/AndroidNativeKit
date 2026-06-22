@@ -1,0 +1,14 @@
+Egova3DEngine
+EgovaSinian
+/ndk23/arm64-v8a/lib/libSinianBase.so
+/ndk23/arm64-v8a/lib/libSinianCoordConverter.so
+/ndk23/arm64-v8a/lib/libSinianCurl.so
+/ndk23/arm64-v8a/lib/libSinianCustomMesh.so
+/ndk23/arm64-v8a/lib/libSinianModelTile.so
+/ndk23/arm64-v8a/lib/libSinianTerrain.so
+/ndk23/arm64-v8a/lib/libTinyCG.so
+/ndk23/arm64-v8a/include/SinianMapTile
+/ndk23/arm64-v8a/include/SinianSceneGraph
+/ndk23/arm64-v8a/lib/libSinianMapTile.so
+/ndk23/arm64-v8a/lib/libSinianSceneGraph.so
+/ndk23/arm64-v8a/lib/libTinyCG.a
