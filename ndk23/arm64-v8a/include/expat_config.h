@@ -22,7 +22,7 @@
 #define HAVE_GETPAGESIZE
 
 /* Define to 1 if you have the `getrandom' function. */
-/* #undef HAVE_GETRANDOM */
+#define HAVE_GETRANDOM
 
 /* Define to 1 if you have the <inttypes.h> header file. */
 #define HAVE_INTTYPES_H

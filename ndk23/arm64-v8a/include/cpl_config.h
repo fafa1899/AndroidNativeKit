@@ -62,7 +62,7 @@
 /* #undef HAVE_PTHREAD_MUTEX_ADAPTIVE_NP */
 
 /* Define to 1 if you have the `pthread_spin_lock' function. */
-/* #undef HAVE_PTHREAD_SPIN_LOCK */
+#define HAVE_PTHREAD_SPIN_LOCK 1
 
 /* Define to 1 if you have the `pthread_atfork' function. */
 #define HAVE_PTHREAD_ATFORK 1
@@ -74,7 +74,7 @@
 #define HAVE_SYS_RANDOM_H 1
 
 /* Define to 1 if you have the `getrandom' function. */
-/* #undef HAVE_GETRANDOM */
+#define HAVE_GETRANDOM 1
 
 /* Define to 1 if you have the `getrlimit' function. */
 #define HAVE_GETRLIMIT 1
@@ -122,7 +122,7 @@
 #define HAVE_READLINK 1
 
 /* Define to 1 if you have the `posix_spawnp' function. */
-/* #undef HAVE_POSIX_SPAWNP */
+#define HAVE_POSIX_SPAWNP 1
 
 /* Define to 1 if you have the `posix_memalign' function. */
 #define HAVE_POSIX_MEMALIGN 1
@@ -155,16 +155,16 @@
 #define UNIX_STDIO_64 1
 
 /* Define to name of 64bit fopen function */
-#define VSI_FOPEN64 fopen
+#define VSI_FOPEN64 fopen64
 
 /* Define to name of 64bit ftruncate function */
 #define VSI_FTRUNCATE64 ftruncate64
 
 /* Define to name of 64bit fseek func */
-#define VSI_FSEEK64 fseeko
+#define VSI_FSEEK64 fseeko64
 
 /* Define to name of 64bit ftell func */
-#define VSI_FTELL64 ftello
+#define VSI_FTELL64 ftello64
 
 /* Define to name of 64bit stat function */
 #define VSI_STAT64 stat64

@@ -13,5 +13,5 @@ Name: libgdal
 Description: Geospatial Data Abstraction Library
 Version: ${CONFIG_VERSION}
 Libs: ${CONFIG_INST_LIBS}
-Libs.private: -LD:/Github/AndroidNativeKit/ndk23/arm64-v8a/lib -liconv -lssl -lcrypto -ltiff -ljpeg -lpng -lgiflib -lwebp -lz -lsqlite3 -lexpat -lm -lxml2 -lgeos_c -lcurl -lproj -pthread -lc++
+Libs.private: -LD:/Github/AndroidNativeKit/ndk23/arm64-v8a/lib -lssl -lcrypto -ltiff -ljpeg -lpng -lgiflib -lwebp -lz -lbasisu -lzstd -lm -lsqlite3 -lexpat -lxml2 -lgeos_c -lcurl -lproj -pthread -lc++
 Cflags: ${CONFIG_INST_CFLAGS}

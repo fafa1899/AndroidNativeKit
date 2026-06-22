@@ -8,7 +8,7 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 # Import target "GDAL::GDAL" for configuration "Release"
 set_property(TARGET GDAL::GDAL APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(GDAL::GDAL PROPERTIES
-  IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE "CURL::libcurl_shared;PROJ::proj;GEOS::geos_c;expat::expat"
+  IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE "CURL::libcurl_shared;PROJ::proj;GEOS::geos_c"
   IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/lib/libgdal.so"
   IMPORTED_SONAME_RELEASE "libgdal.so"
   )
